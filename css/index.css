@@ -1,0 +1,214 @@
+body{
+    margin: 0;
+    background-color: #FDF6EC;
+
+}
+
+.nav-bar{
+    background-color: #FFE6BC;
+    height: 80px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-family: 'Montserrat';
+}
+
+.nav-bar p{
+    float: left;
+    margin: auto auto;
+    margin-left: 20px;
+    color: black;
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+
+
+.nav-bar img{
+    width: 1.5rem;
+    flex: left;
+    color: white;
+    margin-left: 10px;
+    margin-right: 20px;
+}
+
+.nav-bar-sections:hover p{
+    color: #DD4A48;
+
+}
+
+.carousel img{
+    width: 100%;
+    height: 42rem;
+    
+}
+
+.hotsales{
+    background-color: #ECDBBA;
+    height: 600px;
+    margin-top: 4rem;
+}
+
+.card{
+    background-color: #ECB365;
+    height: 250px;
+    width: 23%;
+    float: left;
+    margin: 1%;
+    text-align: center;
+    border-radius: 5%;
+}
+
+.card img{
+    width: 200px;
+    margin: .5rem 0 0 0;
+    height: 130px;
+}
+
+.card p{
+    text-align: center;
+    font-size: 2rem;
+    margin: 1rem 0 1rem 0;
+    color: #4F091D;
+}
+
+.button {
+    display: inline-block;
+    border-radius: 4px;
+    background-color: #f4511e;
+    font-family: 'Montserrat';
+    font-weight: bold;
+    border: none;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 13px;
+    padding: 5px;
+    width: 150px;
+    transition: all 0.5s;
+    cursor: pointer;
+    
+}
+  
+.button span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+}
+  
+.button span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+}
+  
+.button:hover span {
+    padding-right: 25px;
+}
+  
+.button:hover span:after {
+    opacity: 1;
+    right: 0;
+}
+
+
+.reviews{
+    margin: 2rem 0 0 0;
+    background-color: #ef8172;
+    height: 450px;
+    color: white;
+}
+
+.reviews h2{
+    text-align: center;
+    padding: 2rem 0 0 0;
+    font-family: 'Montserrat';
+    font-size:  2.5rem;
+
+}
+
+.review{
+    width: 30%;
+    float: left;
+    font-family: 'Montserrat';
+    padding: 1rem;
+    font-weight: bold;
+    text-align: justify;
+    
+}
+
+.review h3{
+    float: left;
+    padding: 0 0 0 3%;
+    font-size: 1.5rem;
+}
+
+img[alt='rate']{
+    width: 30%;
+    height: 10%;
+    float: right;
+    margin: 6% 0 0 15%;
+}
+
+img[alt='user']{
+    width: 10rem;
+    height: 10rem;
+}
+
+.review-header {
+    display: flex;
+}
+
+.review-main{
+    display: flex;
+}
+
+.review-main p{
+    padding: 2% 5% 2% 5%;
+    background-color: #DD4A48;
+    border-radius: 10%;
+    margin: 0 0 0 5%;
+}
+
+.footer{
+    margin: 3% 0 0 0;
+    background-color: #ECB365;
+    height: 150px;
+    display: flex;
+}
+
+.footer-section{
+    width: 33%;
+    display: flex;
+}
+
+
+.footer-section img{
+    height: 120px;
+    padding: 10px;
+}
+
+.pri{
+    font-family: 'Montserrat';
+    font-size: 1.1rem;
+    color: white;
+    font-weight: bold;
+}
+.mid{
+    font-family: 'Montserrat';
+    font-size: 1.5rem;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    display: block;
+}
+
+
+
+
+
+
+
